@@ -1,0 +1,259 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 153584,
+      "type": "VEC3",
+      "max": [
+        2.1218764781951904,
+        1.71830153465271,
+        1.1630080938339233
+      ],
+      "min": [
+        -2.079578161239624,
+        -1.7182798385620117,
+        -0.99433314800262451
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 153584,
+      "type": "VEC3",
+      "max": [
+        0.9999847412109375,
+        0.99998939037323,
+        0.99999582767486572
+      ],
+      "min": [
+        -0.99997878074646,
+        -0.99985420703887939,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 153584,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99984347820281982,
+        0.99996292591094971,
+        1.0
+      ],
+      "min": [
+        -0.99998295307159424,
+        -0.99999535083770752,
+        -0.99998712539672852,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 153584,
+      "type": "VEC2",
+      "max": [
+        0.99169921875,
+        0.965576171875
+      ],
+      "min": [
+        0.0009765625,
+        0.0009765625
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 153584,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.054901961237192154,
+        0.058823529630899429,
+        0.14509804546833038,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 513858,
+      "type": "SCALAR",
+      "max": [
+        153583.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "UnityGLTF (2018.2.5f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Unity2Skfb.bin",
+      "byteLength": 11884808
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1843008
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1843008,
+      "byteLength": 1843008
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3686016,
+      "byteLength": 2457344
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6143360,
+      "byteLength": 1228672
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7372032,
+      "byteLength": 2457344
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9829376,
+      "byteLength": 2055432
+    }
+  ],
+  "images": [
+    {
+      "uri": "12876_PM3D_Cube3D_1_TXTR.jpg",
+      "name": "PM3D_Cube3D_1_TXTR"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9716981,
+          0.9716981,
+          0.9716981,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "roughnessFactor": 0.31999999284744263
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaCutoff": 0.0,
+      "name": "PM3D_Cube3D_1_TXTR"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "COLOR_0": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "noria"
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "name": "Main Camera"
+    },
+    {
+      "rotation": [
+        0.408217877,
+        -0.234569684,
+        -0.109381631,
+        -0.8754261
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "name": "Directional Light"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.967526436,
+        -0.2527699
+      ],
+      "translation": [
+        0.039590355,
+        0.0103649991,
+        0.0
+      ],
+      "name": "noria"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ],
+      "name": "Unity2Skfb"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "PM3D_Cube3D_1_TXTR"
+    }
+  ]
+}
